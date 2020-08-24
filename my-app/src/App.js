@@ -2,7 +2,7 @@ import React, { } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-
+import 'bootstrap/dist/js/bootstrap.js';
 
 import Navegacion from './Componentes/Navegacion.js';
 import RegistroNota from './Componentes/RegistroNota.js';

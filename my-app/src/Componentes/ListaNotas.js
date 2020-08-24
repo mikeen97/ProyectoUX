@@ -36,7 +36,7 @@ export default class ListaNotas extends Component {
                                        Contenido: {note.content}
                                     </p>
                                     <p>
-                                        Fecha: {format(note.created)}
+                                        Fecha: {note.fecha}
                                     </p>
                                 </div>
                             </div>

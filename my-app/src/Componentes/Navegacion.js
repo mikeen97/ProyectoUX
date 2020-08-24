@@ -13,11 +13,11 @@ export default class RegistroNota extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item">
-                        <Link className="navbar-brand" to="/">Crear nota</Link>
+                        <li className="nav-item sr-only">
+                            <Link className="navbar-brand" to="/">Crear nota</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="navbar-brand" to="/listar">Listar notas</Link>
+                            <Link className="navbar-brand" to="/listar">Listar notas</Link>
                         </li>
                     </ul>
                 </div>

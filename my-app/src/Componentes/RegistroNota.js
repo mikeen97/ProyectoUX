@@ -55,9 +55,9 @@ onChangeDate = date => {
                 <h4>Agregar un Apunte</h4>
                 <form onSubmit={this.onSubmit}> 
                     <div className="form-group"> 
-                        <textarea 
+                        <textarea className="container-fluid" 
                             name="content" 
-                            placeholder="txtNota"
+                            placeholder="INGRESE LA NOTA"
                             onChange={this.onInputChange}
                             value={this.state.content}  
                             required>        
@@ -68,7 +68,7 @@ onChangeDate = date => {
                             type="text"
                             onChange={this.onInputChange}
                             className="form-control" 
-                            placeholder="Etiqueta" 
+                            placeholder="INGRESE ETIQUETA" 
                             name="etiqueta"
                             value={this.state.title} 
                             required>
@@ -78,7 +78,7 @@ onChangeDate = date => {
                         <DatePicker 
                         className="form-control"
                         name="fecha" 
-                        selected={this.state.date}
+                        selected={this.state.fecha}
                         onChange={this.onChangeDate}
                         />
                     </div>
