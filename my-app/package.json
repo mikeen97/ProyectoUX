@@ -16,6 +16,7 @@
     "react-scripts": "3.4.3",
     "timeago.js": "^4.0.2"
   },
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
