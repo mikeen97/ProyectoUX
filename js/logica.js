@@ -1,6 +1,5 @@
 document.querySelector('#btnSaveNote').addEventListener('click',AgregarNota);
-ImprimirEnTabla();
-
+ImprimirEnTabla();// si elimino esta linea la tabla no retiene los valores
 
 function AgregarNota(){
     var sApunte = document.querySelector('#txtApunte').value,
@@ -17,7 +16,7 @@ function ImprimirEnTabla() {
         tbody = document.querySelector('#TablaNotas tbody');
     
     tbody.innerHTML = '';
-
+    console.log(ListNotas);
     for (var i = 0; i < ListNotas.length; i++) {
         var row = tbody.insertRow(i);
         var apunteCell = row.insertCell(0);
@@ -31,3 +30,8 @@ function ImprimirEnTabla() {
     tbody.appendChild(row);
     }
 }
+///
+//// Boton para crear la lista de notas.
+///
+
+
