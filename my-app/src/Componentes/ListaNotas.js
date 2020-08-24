@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import { format } from 'timeago.js'
-import { Link } from 'react-router-dom'
 
 export default class ListaNotas extends Component {
 
